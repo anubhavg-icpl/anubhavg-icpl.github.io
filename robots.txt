@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Allow: /cyberexpert.html
+Allow: /devsecops.html
+Allow: /mainframe.html
+Allow: /releam.html
+Allow: /securityexpert.html
+Allow: /whitehat.html
+Allow: /assets/
+
+# Optimize crawling performance
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://anubhavg-icpl.github.io/sitemap.xml
+
+# Common directories/files to disallow
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.txt$
+Disallow: /*.xml$
+Disallow: /*?*
+Disallow: /*?
