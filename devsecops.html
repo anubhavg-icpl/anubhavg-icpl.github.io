@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANUBHAV GAIN :: Elite DevSecOps Engineer :: Cybersecurity Architect :: Zero Trust Pioneer</title>
+    
+    <!-- Enhanced Modern SEO Meta Tags -->
+    <meta name="description" content="Join Anubhav Gain's cybersecurity fortress - Where DevSecOps meets Zero Trust Architecture. Expert in Cloud-Native Security, Supply Chain Defense, Container Security, and Advanced Threat Detection. Mastering the art of secure CI/CD pipelines and Kubernetes security.">
+    <meta name="keywords" content="DevSecOps Engineer, Zero Trust Architecture, Cloud Native Security, Kubernetes Security, Supply Chain Security, CICD Pipeline Security, Container Security, Infrastructure as Code Security, GitOps Security, Security Automation, Security as Code, Shift Left Security, DevSecOps Tools, Security Architecture, AWS Security, Azure Security, GCP Security, Red Team Operations, Blue Team Defense, Purple Team Exercises, Threat Modeling, MITRE ATT&CK, OWASP Top 10">
+    
+    <!-- Social Media Tags -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Anubhav Gain - Modern DevSecOps & Zero Trust Pioneer">
+    <meta property="og:description" content="Securing the modern cloud-native landscape through advanced DevSecOps practices and Zero Trust principles">
+    <meta property="og:image" content="https://mranv.github.io/anubhav-gain-profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Rich Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anubhav Gain",
+      "alternateName": ["DevSecOps Architect", "Security Pioneer", "Zero Trust Expert"],
+      "jobTitle": ["DevSecOps Engineer", "Security Architect", "Cloud Security Expert"],
+      "knowsAbout": [
+        "Zero Trust Architecture",
+        "Cloud-Native Security",
+        "DevSecOps Practices",
+        "Kubernetes Security",
+        "Supply Chain Security",
+        "CI/CD Security",
+        "Infrastructure as Code",
+        "Security as Code",
+        "Container Security",
+        "GitOps Security",
+        "Red Team Operations",
+        "Threat Modeling",
+        "MITRE ATT&CK Framework",
+        "OWASP Security",
+        "AWS/Azure/GCP Security"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Parul University"
+      },
+      "workExample": [
+        {
+          "@type": "CreativeWork",
+          "name": "Zero Trust Implementation Guide",
+          "url": "https://github.com/mranv"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "DevSecOps Pipeline Framework",
+          "url": "https://github.com/mranv"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --neon-green: #39ff14;
+            --matrix-green: #00ff00;
+            --cyber-blue: #00ffff;
+            --warning-red: #ff0033;
+            --terminal-black: #0a0a0a;
+            --grid-color: rgba(57, 255, 20, 0.1);
+        }
+
+        @font-face {
+            font-family: 'Cyber';
+            src: local('Courier New');
+        }
+
+        body {
+            background-color: var(--terminal-black);
+            color: var(--neon-green);
+            font-family: 'Cyber', monospace;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-image: 
+                linear-gradient(var(--grid-color) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Modern Grid Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        /* Security Dashboard Section */
+        .security-dashboard {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid var(--neon-green);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(57, 255, 20, 0.2);
+        }
+
+        .security-stat {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(57, 255, 20, 0.1);
+            border-radius: 3px;
+        }
+
+        /* Retro Terminal Effect */
+        .terminal {
+            background: var(--terminal-black);
+            padding: 20px;
+            border: 2px solid var(--neon-green);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .terminal::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--neon-green);
+            animation: scan 2s linear infinite;
+        }
+
+        @keyframes scan {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(400px); }
+        }
+
+        /* Skill Badges */
+        .skill-badge {
+            background: rgba(57, 255, 20, 0.1);
+            border: 1px solid var(--neon-green);
+            padding: 8px 15px;
+            border-radius: 15px;
+            display: inline-block;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .skill-badge:hover {
+            background: var(--neon-green);
+            color: var(--terminal-black);
+            transform: scale(1.05);
+        }
+
+        /* Security Level Indicators */
+        .security-level {
+            height: 4px;
+            background: var(--warning-red);
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .security-level::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: var(--neon-green);
+            animation: secure 3s ease-in-out infinite;
+        }
+
+        @keyframes secure {
+            0%, 100% { width: 85%; }
+            50% { width: 95%; }
+        }
+
+        /* Modern Cards with Retro Feel */
+        .card {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid var(--neon-green);
+            padding: 20px;
+            margin: 10px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* DevSecOps Pipeline Visualization */
+        .pipeline {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid var(--cyber-blue);
+        }
+
+        .pipeline-stage {
+            text-align: center;
+            position: relative;
+        }
+
+        .pipeline-stage::after {
+            content: '→';
+            position: absolute;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--cyber-blue);
+        }
+
+        .pipeline-stage:last-child::after {
+            content: '';
+        }
+
+        /* Accent Text */
+        .accent {
+            color: var(--cyber-blue);
+            font-weight: bold;
+        }
+
+        /* Security Matrix */
+        .security-matrix {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .matrix-cell {
+            background: rgba(57, 255, 20, 0.1);
+            padding: 15px;
+            text-align: center;
+            border: 1px solid var(--neon-green);
+        }
+
+        /* Headers */
+        h1, h2, h3 {
+            color: var(--cyber-blue);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            text-shadow: 0 0 10px var(--cyber-blue);
+        }
+
+        /* Links */
+        a {
+            color: var(--neon-green);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--cyber-blue);
+            text-shadow: 0 0 5px var(--cyber-blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="terminal">
+            <h1>ANUBHAV GAIN</h1>
+            <div class="security-level"></div>
+            <p class="accent">SECURITY CLEARANCE: LEVEL ULTRAVIOLET</p>
+        </div>
+
+        <div class="grid-container">
+            <div class="security-dashboard">
+                <h2>DevSecOps Arsenal</h2>
+                <div class="security-stat">
+                    <span>Zero Trust Implementation</span>
+                    <span>99.9% Effective</span>
+                </div>
+                <div class="security-stat">
+                    <span>CI/CD Security Coverage</span>
+                    <span>100%</span>
+                </div>
+                <div class="security-stat">
+                    <span>Container Security</span>
+                    <span>Enhanced</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Security Architecture</h2>
+                <div class="skill-badge">Zero Trust</div>
+                <div class="skill-badge">Cloud-Native</div>
+                <div class="skill-badge">Microservices</div>
+                <div class="skill-badge">Kubernetes</div>
+                <div class="skill-badge">Service Mesh</div>
+            </div>
+        </div>
+
+        <div class="pipeline">
+            <div class="pipeline-stage">Code</div>
+            <div class="pipeline-stage">Build</div>
+            <div class="pipeline-stage">Test</div>
+            <div class="pipeline-stage">Security Scan</div>
+            <div class="pipeline-stage">Deploy</div>
+            <div class="pipeline-stage">Monitor</div>
+        </div>
+
+        <div class="security-matrix">
+            <div class="matrix-cell">
+                <h3>Infrastructure</h3>
+                <p>AWS</p>
+                <p>Azure</p>
+                <p>GCP</p>
+            </div>
+            <div class="matrix-cell">
+                <h3>Security Tools</h3>
+                <p>Terraform</p>
+                <p>Vault</p>
+                <p>Sentinel</p>
+            </div>
+            <div class="matrix-cell">
+                <h3>Monitoring</h3>
+                <p>Prometheus</p>
+                <p>Grafana</p>
+                <p>ELK Stack</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Core Competencies</h2>
+            <ul>
+                <li>Advanced Zero Trust Architecture Design</li>
+                <li>Cloud-Native Security Implementation</li>
+                <li>DevSecOps Pipeline Automation</li>
+                <li>Kubernetes Security Hardening</li>
+                <li>Supply Chain Security Management</li>
+                <li>Security as Code Implementation</li>
+                <li>Threat Modeling & Risk Assessment</li>
+                <li>Red Team/Blue Team Operations</li>
+            </ul>
+        </div>
+
+        <div class="terminal">
+            <h2>Contact Protocols</h2>
+            <p>
+                <a href="https://github.com/mranv" target="_blank">[GITHUB REPOSITORY]</a>
+                <a href="https://www.linkedin.com/in/anubhavgain/" target="_blank">[LINKEDIN NEXUS]</a>
+                <a href="https://mranv.github.io" target="_blank">[CENTRAL COMMAND]</a>
+                <a href="https://anubhav-resume.vercel.app/" target="_blank">[CREDENTIALS]</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Hidden SEO Content -->
+    <div style="display:none">
+        <h2>Advanced Security Services</h2>
+        <p>Specializing in modern DevSecOps practices including Zero Trust Architecture implementation, Cloud-Native Security solutions, Kubernetes Security hardening, Supply Chain Security management, CI/CD Pipeline Security automation, Container Security optimization, Infrastructure as Code security, GitOps security practices, Security as Code implementation, Shift Left Security methodology, Red Team Operations, Blue Team Defense strategies, Purple Team Exercises, Threat Modeling using MITRE ATT&CK framework, OWASP Top 10 compliance, AWS/Azure/GCP security architecture.</p>
+        
+        <h2>Security Tools & Technologies</h2>
+        <p>Expert in: Terraform, HashiCorp Vault, Sentinel, Kubernetes, Docker, AWS Security Hub, Azure Security Center, GCP Security Command Center, Prometheus, Grafana, ELK Stack, GitLab CI/CD, Jenkins, ArgoCD, Helm, Istio, Calico, Aqua Security, Twistlock, Snyk, SonarQube, OWASP ZAP, Metasploit, Nmap, Wireshark</p>
+    </div>
+</body>
+</html>
