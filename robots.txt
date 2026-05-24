@@ -8,11 +8,19 @@ Allow: /securityexpert.html
 Allow: /whitehat.html
 Allow: /assets/
 
+# VIBE library (project site at /vibe/) — allow full crawl + sitemap/data,
+# overriding the global *.xml / *.json blocks via longer (more specific) rules.
+Allow: /vibe/
+Allow: /vibe/sitemap-index.xml
+Allow: /vibe/sitemap-0.xml
+Allow: /vibe/assets-index.json
+
 # Optimize crawling performance
 Crawl-delay: 1
 
 # Sitemap location
 Sitemap: https://anubhavg-icpl.github.io/sitemap.xml
+Sitemap: https://anubhavg-icpl.github.io/vibe/sitemap-index.xml
 
 # Common directories/files to disallow
 Disallow: /cgi-bin/
