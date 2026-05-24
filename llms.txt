@@ -1,0 +1,23 @@
+# Anubhav Gain
+
+> Senior DevSecOps Engineer and Security Engineer specializing in Rust, Linux, and cybersecurity. Builds security automation, threat detection, and EDR/XDR systems. Security Software Engineer at Infopercept Consulting and founder/CEO at TechAnv Consulting, based in Vadodara, Gujarat, India.
+
+## About
+- Roles: DevSecOps Engineer, Security Engineer, Rust Developer
+- Focus areas: security automation, YARA rule development, threat detection, container and Kubernetes security, CI/CD security, EDR/XDR platform engineering, secure systems architecture
+- Core stack: Rust, Go, Bash, Linux
+- Education: Parul University
+
+## Profiles
+- Website: https://anubhavg-icpl.github.io/
+- GitHub: https://github.com/anubhavg-icpl
+- LinkedIn: https://www.linkedin.com/in/anubhavgain/
+- Blog: https://mranv.pages.dev/
+
+## Notable projects
+- Rustinel — Windows user-mode EDR agent written in Rust
+- DetectFlow — open-source threat detection tooling
+- Invinsense XDR/OXDR — enterprise threat detection and response platform (Infopercept Consulting)
+
+## Contact
+- Email: iamanubhavgain@gmail.com

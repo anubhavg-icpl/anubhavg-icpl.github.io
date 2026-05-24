@@ -1,33 +1,31 @@
+# robots.txt — https://anubhavg-icpl.github.io/
+# Anubhav Gain — DevSecOps Engineer & Security Engineer
+
 User-agent: *
 Allow: /
-Allow: /cyberexpert.html
-Allow: /devsecops.html
-Allow: /mainframe.html
-Allow: /releam.html
-Allow: /securityexpert.html
-Allow: /whitehat.html
-Allow: /assets/
-
-# VIBE library (project site at /vibe/) — allow full crawl + sitemap/data,
-# overriding the global *.xml / *.json blocks via longer (more specific) rules.
-Allow: /vibe/
-Allow: /vibe/sitemap-index.xml
-Allow: /vibe/sitemap-0.xml
-Allow: /vibe/assets-index.json
-
-# Optimize crawling performance
 Crawl-delay: 1
 
-# Sitemap location
-Sitemap: https://anubhavg-icpl.github.io/sitemap.xml
-Sitemap: https://anubhavg-icpl.github.io/vibe/sitemap-index.xml
-
-# Common directories/files to disallow
+# Block noise only
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /private/
-Disallow: /*.json$
-Disallow: /*.txt$
-Disallow: /*.xml$
-Disallow: /*?*
-Disallow: /*?
+
+# AI / answer-engine crawlers — explicitly welcome (GEO citability)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemaps
+Sitemap: https://anubhavg-icpl.github.io/sitemap.xml
+Sitemap: https://anubhavg-icpl.github.io/vibe/sitemap-index.xml
